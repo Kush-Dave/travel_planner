@@ -7,3 +7,6 @@ def handle_follow_up(question, state):
     state.add_message(f"Weather info: {forecast}")
     return forecast
   
+  else:
+    state.add_message(f"Noted: {question}")
+    return "Thanks for your question!"
