@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Santorini",
+    "country": "Europe",
+    "trip_type": ["beach", "romantic"],
+    "budget":"high",
+    "idel_duration":[3,7],
+    "best_seasons": ["summer", "spring"]
+  },
+  {
+    "name": "Barcelona",
+    "country": "Europe",
+    "trip_type": ["beach", "urban", "cultural"],
+    "budget":"high",
+    "idel_duration":[4,8],
+    "best_seasons": ["spring", "summer"]
+  },
+  {
+    "name": "Jeju Island National Park",
+    "country": "South Korea",
+    "trip_type": ["cultural", "romantic", "nature"],
+    "budget":"high",
+    "idel_duration":[8],
+    "best_seasons": ["spring", "summer"]
+  },
+  {
+    "name": "Paris",
+    "country": "France",
+    "trip_tags": ["romantic", "culture", "food"],
+    "budget_level": "high",
+    "ideal_duration": [3, 7],
+    "best_seasons": ["spring", "fall"]
+  }
+]

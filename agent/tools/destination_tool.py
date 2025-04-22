@@ -2,7 +2,7 @@ import json
 import os
 
 def load_destinations():
-  path = os.path.join(os.path.dirname(__file__),)
+  path = os.path.join(os.path.dirname(__file__), "C:\\Users\\Kush\\Desktop\\travel_planner\\agent\\data\\destination.json")
   with open(path, 'r') as file:
     return json.load(file)
   
