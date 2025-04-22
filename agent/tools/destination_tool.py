@@ -7,9 +7,12 @@ def load_destinations():
     return json.load(file)
   
 def find_destinations(trip_type, region):
-  data = load_destinations()
-  matches = data.get(trip_type.lower(), [])
-  if region:
-    matches = [dest for dest in matches if dest['region'].lower() == region.lower()]
+  # data = load_destinations()
+  # matches = data.get(trip_type.lower(), [])
+  # if region:
+  #   matches = [dest for dest in matches if dest['region'].lower() == region.lower()]
   
-  return matches
+  # return matches
+
+  data = [line.strip() for line in open("C:\\Users\\Kush\\Desktop\\travel_planner\\agent\\data\\destination.json", 'r')]
+  texts = [[word.lower() for word in text.split()] for text in data]
